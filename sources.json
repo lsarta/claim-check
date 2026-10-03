@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fomc-2026-09",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "file": "captures/fomc-2026-09.txt",
+    "captured_on": "2026-10-03",
+    "kept_from": "September 16, 2026",
+    "kept_to": "For media inquiries",
+    "sha256": "4aabfa7eeadaac7f167ce470c6629431e3edde34ed72714751cc1448459b78a0"
+  },
+  {
+    "id": "bea-income-2026-08",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+    "file": "captures/bea-income-2026-08.txt",
+    "captured_on": "2026-10-03",
+    "kept_from": "EMBARGOED UNTIL RELEASE",
+    "kept_to": "Full Release",
+    "sha256": "67dc7067625e70609de75d5d2ad34e656753c12353c8375de96bb5a169053d86"
+  },
+  {
+    "id": "bea-trade-2026-07",
+    "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+    "file": "captures/bea-trade-2026-07.txt",
+    "captured_on": "2026-10-03",
+    "kept_from": "EMBARGOED UNTIL RELEASE",
+    "kept_to": "Full Release",
+    "sha256": "9c3ecd34ded2090a1069890ae6b4f158c3913447ed3486d92e667b576afa2cd9"
+  }
+]

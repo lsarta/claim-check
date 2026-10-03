@@ -1,0 +1,89 @@
+EMBARGOED UNTIL RELEASE AT 8:30 a.m. EDT, Thursday, September 3, 2026
+BEA 26–40
+CB 26–142
+U.S. International Trade in Goods and Services, July 2026
+The U.S. Census Bureau and the U.S. Bureau of Economic Analysis announced today that the goods and services deficit was $88.6 billion in July, up $17.4 billion from $71.2 billion in June, revised.
+U.S. International Trade in Goods and Services Deficit
+Deficit:
+$88.6 Billion
++24.4%°
+Exports:
+$310.7 Billion
+–2.1%°
+Imports:
+$399.3 Billion
++2.8%°
+Next release: Tuesday, October 6, 2026
+(°) Statistical significance is not applicable or not measurable. Data adjusted for seasonality but not price changes
+Source: U.S. Census Bureau, U.S. Bureau of Economic Analysis; U.S. International Trade in Goods and Services, September 3, 2026
+Exports, Imports, and Balance (exhibit 1)
+July exports were $310.7 billion, $6.6 billion less than June exports. July imports were $399.3 billion, $10.8 billion more than June imports.
+The July increase in the goods and services deficit reflected an increase in the goods deficit of $17.6 billion to $119.6 billion and an increase in the services surplus of $0.2 billion to $31.0 billion.
+Year-to-date, the goods and services deficit decreased $188.4 billion, or 29.6 percent, from the same period in 2025. Exports increased $237.2 billion or 12.0 percent. Imports increased $48.8 billion or 1.9 percent.
+Three-Month Moving Averages (exhibit 2)
+The average goods and services deficit increased $11.9 billion to $78.5 billion for the three months ending in July.
+Average exports decreased $6.4 billion to $316.0 billion in July.
+Average imports increased $5.5 billion to $394.5 billion in July.
+Year-over-year, the average goods and services deficit increased $11.7 billion from the three months ending in July 2025.
+Average exports increased $33.5 billion from July 2025.
+Average imports increased $45.2 billion from July 2025.
+Exports (exhibits 3, 6, and 7)
+Exports of goods decreased $6.2 billion to $201.0 billion in July.
+Exports of goods on a Census basis decreased $5.9 billion.
+Industrial supplies and materials decreased $8.7 billion.
+Crude oil decreased $4.5 billion.
+Nonmonetary gold decreased $3.9 billion.
+Capital goods increased $1.9 billion.
+Consumer goods increased $1.7 billion.
+Pharmaceutical preparations increased $1.0 billion.
+Net balance of payments adjustments decreased $0.3 billion.
+Treatment of Gold in BEA’s International and National Economic Accounts
+When incorporating the statistics in this release into BEA’s National Economic Accounts, including Gross Domestic Product, or GDP, BEA replaces exports and imports of nonmonetary gold with an adjustment calculated as the difference between domestic production and industrial use of gold. For additional information, see “How are exports and imports of gold recorded in BEA’s International Economic Accounts?” and “How are exports and imports of nonmonetary gold treated in BEA’s National Economic Accounts?”.
+Exports of services decreased $0.4 billion to $109.7 billion in July.
+Travel decreased $0.6 billion.
+Financial services decreased $0.3 billion.
+Transport decreased $0.2 billion.
+Charges for the use of intellectual property increased $0.4 billion.
+Other business services increased $0.2 billion.
+Imports (exhibits 4, 6, and 8)
+Imports of goods increased $11.4 billion to $320.6 billion in July.
+Imports of goods on a Census basis increased $12.0 billion.
+Capital goods increased $14.4 billion.
+Computers increased $6.9 billion.
+Computer accessories increased $6.6 billion.
+Semiconductors increased $1.2 billion.
+Industrial supplies and materials decreased $1.8 billion.
+Crude oil decreased $1.8 billion.
+Net balance of payments adjustments decreased $0.6 billion.
+Imports of services decreased $0.6 billion to $78.7 billion in July.
+Charges for the use of intellectual property decreased $0.5 billion.
+Transport decreased $0.3 billion.
+Travel increased $0.2 billion.
+Real Goods in 2017 Dollars – Census Basis (exhibit 11)
+The real goods deficit increased $12.0 billion, or 12.7 percent, to $106.4 billion in July, compared to a 17.7 percent increase in the nominal deficit.
+Real exports of goods decreased $2.7 billion, or 1.8 percent, to $150.8 billion, compared to a 2.9 percent decrease in nominal exports.
+Real imports of goods increased $9.3 billion, or 3.8 percent, to $257.2 billion, compared to a 3.9 percent increase in nominal imports.
+Revisions
+Exports and imports of goods and services were revised for January through June 2026 to incorporate more comprehensive and updated quarterly and monthly data.
+Revisions to June exports
+Exports of goods were revised up $0.3 billion.
+Exports of services were revised up $2.3 billion.
+Revisions to June imports
+Imports of goods were revised up $0.2 billion.
+Imports of services were revised up $0.3 billion.
+Goods by Selected Countries and Areas: Monthly – Census Basis (exhibit 19)
+The July figures show surpluses, in billions of dollars, with Netherlands ($7.8), South and Central America ($6.6), Hong Kong ($3.1), United Kingdom ($2.5), Brazil ($2.4), Singapore ($1.9), Saudi Arabia ($1.3), Australia ($1.2), and Belgium ($0.9). Deficits were recorded, in billions of dollars, with Mexico ($27.5), Vietnam ($23.3), Taiwan ($18.1), China ($15.2), South Korea ($10.4), European Union ($8.9), Germany ($5.6), India ($5.0), Malaysia ($4.8), Japan ($4.2), Ireland ($3.9), Canada ($3.2), Italy ($2.5), France ($1.3), Switzerland ($0.6), and Israel ($0.5).
+The deficit with Mexico increased $7.2 billion to $27.5 billion in July. Exports decreased $0.2 billion to $32.6 billion and imports increased $7.0 billion to $60.1 billion.
+The balance with Switzerland shifted from a surplus of $2.9 billion in June to a deficit of $0.6 billion in July. Exports decreased $2.0 billion to $4.4 billion and imports increased $1.5 billion to $5.0 billion.
+The deficit with Canada decreased $3.7 billion to $3.2 billion in July. Exports increased $0.5 billion to $29.3 billion and imports decreased $3.3 billion to $32.5 billion.
+Goods and Services by Selected Countries and Areas: Quarterly – Balance of Payments Basis(exhibit 20)
+Statistics on trade in goods and services by country and area are only available quarterly, with a one-month lag. With this release, second-quarter figures are now available.
+The second-quarter figures show surpluses, in billions of dollars, with Netherlands ($29.6), South and Central America ($21.7), Singapore ($15.9), Hong Kong ($15.1), Brazil ($12.7), Ireland ($12.1), Switzerland ($10.6), Australia ($9.3), United Kingdom ($9.1), Saudi Arabia ($4.7), Belgium ($3.2), and European Union ($2.0). Deficits were recorded, in billions of dollars, with Vietnam ($61.2), Taiwan ($53.1), Mexico ($52.7), China ($32.3), Germany ($19.2), South Korea ($14.6), Canada ($13.7), India ($12.2), Malaysia ($11.4), Italy ($9.7), France ($6.3), Japan ($4.9), and Israel ($1.5).
+The surplus with the United Kingdom decreased $13.3 billion to $9.1 billion in the second quarter. Exports decreased $12.6 billion to $52.2 billion and imports increased $0.7 billion to $43.1 billion.
+The deficit with Canada increased $11.9 billion to $13.7 billion in the second quarter. Exports increased $2.1 billion to $111.9 billion and imports increased $13.9 billion to $125.6 billion.
+The surplus with South and Central America increased $6.2 billion to $21.7 billion in the second quarter. Exports increased $9.1 billion to $110.4 billion and imports increased $2.9 billion to $88.7 billion.
+All statistics referenced are seasonally adjusted; statistics are on a balance of payments basis unless otherwise specified. Additional statistics, including not seasonally adjusted statistics and details for goods on a Census basis, are available in exhibits 1-20b of this release. For information on data sources, definitions, and revision procedures, see the explanatory notes in this release. The full release can be found at www.census.gov/foreign-trade/Press-Release/current_press_release/index.html or www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services. The full schedule is available in the Census Bureau’s Economic Briefing Room at www.census.gov/economic-indicators/ or on BEA’s website at www.bea.gov/news/schedule.
+Next release: October 6, 2026
+U.S. International Trade in Goods and Services, August 2026
+Country Name Change
+With the release of “U.S. International Trade in Goods and Services, August 2026,” references to “Nauru” will be replaced with “Naoero” to reflect the country’s recent name change. This change also aligns with the name recognized by the U.S. Department of State and the International Organization for Standardization.

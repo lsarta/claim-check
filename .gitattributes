@@ -1,0 +1,2 @@
+# Keep captures byte-for-byte identical on every OS, so their SHA-256 fingerprints match.
+captures/* -text

@@ -1,0 +1,66 @@
+[
+  {
+    "claim_id": "c1",
+    "capture_id": "fomc-2026-09",
+    "subject": "Federal Reserve inflation goal",
+    "value": "2",
+    "unit": "percent",
+    "quote": "Today's policy action will support a timelier return to the Committee's 2 percent goal."
+  },
+  {
+    "claim_id": "c2",
+    "capture_id": "fomc-2026-09",
+    "subject": "FOMC vote in favor of the September 2026 statement",
+    "value": "12",
+    "unit": "votes",
+    "quote": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:"
+  },
+  {
+    "claim_id": "c3",
+    "capture_id": "bea-income-2026-08",
+    "subject": "Increase in U.S. personal income, August 2026",
+    "value": "66.6",
+    "unit": "billion dollars",
+    "quote": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August"
+  },
+  {
+    "claim_id": "c4",
+    "capture_id": "bea-income-2026-08",
+    "subject": "U.S. personal saving rate, August 2026",
+    "value": "4.1",
+    "unit": "percent",
+    "quote": "the personal saving rate—personal saving as a percentage of DPI—was 4.1 percent."
+  },
+  {
+    "claim_id": "c5",
+    "capture_id": "bea-income-2026-08",
+    "subject": "PCE price index, change from one year earlier, August 2026",
+    "value": "3.4",
+    "unit": "percent",
+    "quote": "From the same month one year ago, the PCE price index for August increased 3.4 percent."
+  },
+  {
+    "claim_id": "c6",
+    "capture_id": "bea-trade-2026-07",
+    "subject": "U.S. goods and services trade deficit, July 2026",
+    "value": "88.6",
+    "unit": "billion dollars",
+    "quote": "the goods and services deficit was $88.6 billion in July, up $17.4 billion from $71.2 billion in June, revised."
+  },
+  {
+    "claim_id": "c7",
+    "capture_id": "bea-trade-2026-07",
+    "subject": "U.S. exports, July 2026",
+    "value": "310.7",
+    "unit": "billion dollars",
+    "quote": "July exports were $310.7 billion, $6.6 billion less than June exports."
+  },
+  {
+    "claim_id": "c8",
+    "capture_id": "bea-trade-2026-07",
+    "subject": "Growth in the U.S. trade deficit, July 2026 (DELIBERATELY BAD: the quote is a paraphrase)",
+    "value": "24.4",
+    "unit": "percent",
+    "quote": "The trade deficit jumped 24.4 percent in July."
+  }
+]
