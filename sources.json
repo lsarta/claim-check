@@ -1,29 +1,35 @@
 [
   {
     "id": "fomc-2026-09",
+    "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-    "file": "captures/fomc-2026-09.txt",
-    "captured_on": "2026-10-03",
+    "method": "fetched",
     "kept_from": "September 16, 2026",
     "kept_to": "For media inquiries",
+    "file": "captures/fomc-2026-09.txt",
+    "captured_on": "2026-10-03",
     "sha256": "4aabfa7eeadaac7f167ce470c6629431e3edde34ed72714751cc1448459b78a0"
   },
   {
     "id": "bea-income-2026-08",
+    "title": "Personal Income and Outlays, August 2026 | U.S. Bureau of Economic Analysis (BEA)",
     "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-    "file": "captures/bea-income-2026-08.txt",
-    "captured_on": "2026-10-03",
+    "method": "fetched",
     "kept_from": "EMBARGOED UNTIL RELEASE",
     "kept_to": "Full Release",
+    "file": "captures/bea-income-2026-08.txt",
+    "captured_on": "2026-10-03",
     "sha256": "67dc7067625e70609de75d5d2ad34e656753c12353c8375de96bb5a169053d86"
   },
   {
     "id": "bea-trade-2026-07",
+    "title": "U.S. International Trade in Goods and Services, July 2026 | U.S. Bureau of Economic Analysis (BEA)",
     "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
-    "file": "captures/bea-trade-2026-07.txt",
-    "captured_on": "2026-10-03",
+    "method": "fetched",
     "kept_from": "EMBARGOED UNTIL RELEASE",
     "kept_to": "Full Release",
+    "file": "captures/bea-trade-2026-07.txt",
+    "captured_on": "2026-10-03",
     "sha256": "9c3ecd34ded2090a1069890ae6b4f158c3913447ed3486d92e667b576afa2cd9"
   }
 ]

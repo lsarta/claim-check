@@ -19,6 +19,11 @@ Usage:
       Save a web page's text into captures/ (optional, needs internet).
       --from keeps text starting at the first TEXT; --to stops just before the
       first TEXT after that. Use them to keep the release body and drop menus.
+  python3 verify.py paste <id> <title> <url> [file]
+      Save text you copied from a page into captures/ (works offline). Reads the
+      file if given, otherwise whatever is typed or piped in.
+
+fetch and paste never overwrite: if <id> is already used, they stop and say so.
 
 Python standard library only. Nothing here calls an AI model.
 """
@@ -157,7 +162,50 @@ def run_checks():
     print(f"{len(rows)} claims: {verified} verified, {len(rows) - verified} held. See REPORT.md.")
 
 
-# ---------------------------------------------------------------- optional: fetch a new source
+# ---------------------------------------------------------------- adding a new source
+
+def id_taken(capture_id):
+    """True (with a message) if this capture ID is already in use. Saved captures are never replaced."""
+    known = {s["id"] for s in json.loads(SOURCES.read_text(encoding="utf-8"))}
+    if capture_id in known or (CAPTURES / f"{capture_id}.txt").exists():
+        print(f"Capture ID '{capture_id}' already exists. Saved captures are never overwritten.")
+        print("Nothing was saved. Choose a new ID, for example "
+              f"'{capture_id}-v2'.")
+        return True
+    return False
+
+
+def save_capture(capture_id, text, details):
+    """Write the capture file, then record it, with its fingerprint, in sources.json."""
+    path = CAPTURES / f"{capture_id}.txt"
+    CAPTURES.mkdir(exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    sources = json.loads(SOURCES.read_text(encoding="utf-8"))
+    sources.append({"id": capture_id, **details, "file": f"captures/{capture_id}.txt",
+                    "captured_on": datetime.date.today().isoformat(), "sha256": sha256_of(path)})
+    SOURCES.write_text(json.dumps(sources, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Saved {path.relative_to(HERE)} and added '{capture_id}' to sources.json.")
+
+
+def paste(capture_id, title, url, file=None):
+    """Save text a person copied from a page. No internet needed."""
+    if id_taken(capture_id):
+        return 1
+    if file:
+        if not Path(file).is_file():
+            print(f"File not found: {file}. Nothing was saved.")
+            return 1
+        text = Path(file).read_text(encoding="utf-8-sig")
+    else:
+        if sys.stdin.isatty():
+            print("Paste the text, then press Enter and Ctrl-D (Ctrl-Z then Enter on Windows).")
+        text = sys.stdin.read()
+    if not text.strip():
+        print("No text was given. Nothing was saved.")
+        return 1
+    save_capture(capture_id, text if text.endswith("\n") else text + "\n",
+                 {"title": title, "url": url, "method": "pasted"})
+    return 0
 
 class TextOnly(html.parser.HTMLParser):
     """Collect the readable text of a web page, skipping scripts, styles, and menus."""
@@ -166,9 +214,10 @@ class TextOnly(html.parser.HTMLParser):
 
     def __init__(self):
         super().__init__()
-        self.parts, self.skipping = [], 0
+        self.parts, self.skipping, self.title, self.tag = [], 0, "", ""
 
     def handle_starttag(self, tag, attrs):
+        self.tag = tag
         if tag in self.SKIP:
             self.skipping += 1
         elif tag in self.BREAKS:
@@ -181,6 +230,8 @@ class TextOnly(html.parser.HTMLParser):
             self.parts.append("\n")
 
     def handle_data(self, data):
+        if self.tag == "title" and not self.title:
+            self.title = squash_spaces(data)  # the page's own title, for sources.json
         if not self.skipping:
             self.parts.append(data)
 
@@ -188,6 +239,8 @@ class TextOnly(html.parser.HTMLParser):
 def fetch(capture_id, url, start=None, stop=None):
     """Download a page, save its text to captures/<id>.txt, and record it in sources.json.
     If start/stop markers are given, keep only the text between them."""
+    if id_taken(capture_id):
+        return 1
     try:
         request = urllib.request.Request(url, headers={"User-Agent": "claim-check/1.0"})
         with urllib.request.urlopen(request, timeout=20) as response:
@@ -214,22 +267,9 @@ def fetch(capture_id, url, start=None, stop=None):
             return 1
         text = text[:text.index(stop)].rstrip() + "\n"
 
-    path = CAPTURES / f"{capture_id}.txt"
-    CAPTURES.mkdir(exist_ok=True)
-    path.write_text(text, encoding="utf-8")
-
-    sources = [s for s in json.loads(SOURCES.read_text(encoding="utf-8")) if s["id"] != capture_id]
-    sources.append({
-        "id": capture_id,
-        "url": url,
-        "file": f"captures/{capture_id}.txt",
-        "captured_on": datetime.date.today().isoformat(),
-        "kept_from": start,  # the trim markers, so anyone can re-save it the same way
-        "kept_to": stop,
-        "sha256": sha256_of(path),
-    })
-    SOURCES.write_text(json.dumps(sources, indent=2) + "\n", encoding="utf-8")
-    print(f"Saved {path.relative_to(HERE)} and added '{capture_id}' to sources.json.")
+    # kept_from / kept_to are the trim markers, so anyone can re-save it the same way.
+    save_capture(capture_id, text, {"title": parser.title, "url": url, "method": "fetched",
+                                    "kept_from": start, "kept_to": stop})
     return 0
 
 
@@ -241,6 +281,8 @@ if __name__ == "__main__":
             sys.exit(fetch(args[1], args[2], options.get("--from"), options.get("--to")))
         print(__doc__)
         sys.exit(2)
+    elif args[:1] == ["paste"] and len(args) in (4, 5):
+        sys.exit(paste(*args[1:]))
     elif len(sys.argv) == 1:
         run_checks()
     else:

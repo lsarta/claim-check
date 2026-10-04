@@ -31,6 +31,7 @@ Every claim has exactly these fields:
    apostrophes, and odd punctuation. Only line breaks and extra spaces may differ.
 2. **Never edit, reformat, or "clean up" a file in `captures/`.** The SHA-256 fingerprint in
    `sources.json` will stop matching and every claim from that capture will be held.
+   The one exception is a tamper test (see below).
 3. **Never change `sha256` in `sources.json`** to make a check pass.
 4. One claim per number. Keep quotes short: one sentence or less is ideal.
 5. If you cannot find a quote that contains the number, do not add the claim. Say so instead.
@@ -44,7 +45,29 @@ system working. Fix it only by finding the true verbatim quote, or remove the cl
 
 ## Adding a source
 
-`python3 verify.py fetch <new-id> <url> --from "..." --to "..."` saves a page's text into `captures/`
-and records its fingerprint. Choose `--from`/`--to` so the capture is the body of the document only:
-no site menus, social links, or staff contact details. This needs internet access and may fail;
-if it does, say so and continue with the existing captures. Never write a capture file by hand.
+Always save a new source through `verify.py`, which records its fingerprint. Never create or write a
+file in `captures/` directly, and never reuse an existing capture ID (the commands refuse to overwrite).
+
+- **From the web:** `python3 verify.py fetch <new-id> <url> --from "..." --to "..."`. Choose markers
+  so the capture is the body of the document only: no site menus, social links, or staff contact
+  details. This needs internet access and may fail; if it does, say so and suggest the person paste
+  the text instead.
+- **Pasted by the person:** when someone gives you text copied from a page, save it with
+  `python3 verify.py paste <new-id> "<title>" <url>`, passing their text on standard input exactly as
+  given (for example with a quoted heredoc, `<<'END_OF_CAPTURE'`). Do not tidy, trim, or reword it.
+  Ask for the page title and address if they weren't given. If the text includes menus or staff contact
+  details, ask whether they want to paste only the body before saving.
+
+## Tamper test
+
+If the person explicitly asks for a tamper test (or to change a capture to see what happens):
+change one word in the capture they name (or pick one), run `python3 verify.py`, and show the result.
+Then restore the capture exactly (for example `git checkout -- captures/<file>`), run the checker again,
+and confirm the results are back to normal. Never change `sha256` in `sources.json` during a tamper test.
+
+## Undo
+
+If the person asks to undo their changes: put `claims.json`, `sources.json`, and `captures/` back the way
+they were in the repo's first commit (`git rev-list --max-parents=0 HEAD`), delete every capture file that
+isn't in that commit (committed or not), and run `python3 verify.py` so `REPORT.md` matches. Show the
+person what was removed, and the final summary line.
