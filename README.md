@@ -1,6 +1,6 @@
 # claim-check
 
-Claude reads saved copies of public documents and writes down facts it finds, each with the exact sentence it came from.
+A small research database: Claude collects facts from saved public sources, and a plain Python script decides which ones go in.
 A plain Python script, with no AI in it, then checks every fact against the saved copy and marks it **verified** or **held**, with the reason.
 
 **What "verified" means:** the quote is really in the source, and the number is really in the quote. It does not mean the claim is the right fact.
@@ -26,6 +26,12 @@ Ask Claude:
 - *"Extract three more numbers from the trade capture and run the checker."*
 - *"Run a tamper test: change one word in a capture and run the checker."* Every claim from that capture is held, because the saved file no longer matches its fingerprint. Claude puts the file back afterwards.
 - *"Undo your changes and run the checker again."* This removes added claims and new captures and puts everything back to how the template started.
+
+## Keep it current with a routine
+
+A Claude Code routine can check government release pages on a schedule, save new releases, extract claims,
+and push the results to a branch for you to review. Edit `questions.md` to set what it looks for,
+and follow `ROUTINE.md` to set it up.
 
 ## What's in here
 

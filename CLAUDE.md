@@ -71,3 +71,12 @@ If the person asks to undo their changes: put `claims.json`, `sources.json`, and
 they were in the repo's first commit (`git rev-list --max-parents=0 HEAD`), delete every capture file that
 isn't in that commit (committed or not), and run `python3 verify.py` so `REPORT.md` matches. Show the
 person what was removed, and the final summary line.
+
+## Scheduled runs
+
+When running as a routine (see `ROUTINE.md`):
+
+- Never push to `main`. Push only to the branch the prompt names.
+- Never edit or overwrite an existing capture. Every new release gets a new capture ID.
+- If a release is a PDF, convert it to text and save the text with the `paste` command.
+- If a site blocks requests, note it in `DIGEST.md` instead of trying another way around it.
