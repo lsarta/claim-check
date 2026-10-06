@@ -10,13 +10,8 @@
     "note": "Personal Income and Outlays (PCE prices); GDP for residential investment."
   },
   {
-    "name": "Federal Reserve press releases",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+    "name": "Federal Reserve press releases (RSS feed)",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
     "note": "FOMC statements only; skip enforcement and banking actions."
-  },
-  {
-    "name": "BLS news releases",
-    "url": "https://www.bls.gov/bls/newsrels.htm",
-    "note": "Consumer Price Index; Producer Price Index if relevant."
   }
 ]

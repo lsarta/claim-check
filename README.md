@@ -43,6 +43,9 @@ and follow `ROUTINE.md` to set it up.
 | `verify.py` | The checker. About 290 lines, Python standard library only. |
 | `REPORT.md` | The output: one row per claim, verified or held. |
 | `CLAUDE.md` | The rules Claude follows in this repo. |
+| `questions.md` | The research questions the database tracks. Edit these. |
+| `watchlist.json` | Pages a routine checks for new releases, with a note on which releases matter. |
+| `ROUTINE.md` | The routine prompt, how to set it up, and how to review a run. |
 
 For each claim, `verify.py` checks that the capture exists and its fingerprint still matches,
 that the quote appears in the capture word for word, and that the value appears inside the quote.

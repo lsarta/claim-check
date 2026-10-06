@@ -7,9 +7,9 @@ checker, and pushes the result to a new branch for you to review. It never chang
 ## The routine prompt
 
 ```
-Read questions.md and watchlist.json. For each watchlist page, find
-releases published since the newest captured_on date in sources.json
-that bear on one of the questions. Save each new release as a capture
+Read questions.md and watchlist.json. Find the most recent release on
+each watchlist page that bears on a question and is not already in
+sources.json (match by URL). Save each new release as a capture
 (use the fetch command, or for a PDF, convert it to text and save it
 with the paste command). Extract up to five claims per release that
 answer a question, with exact quotes. Run python3 verify.py. Write
@@ -28,7 +28,6 @@ published, say so in DIGEST.md and push anyway.
    - `www.census.gov`
    - `www.bea.gov`
    - `www.federalreserve.gov`
-   - `www.bls.gov`
 
    Keep the default package list checked.
 5. Remove any connectors the routine doesn't need.
