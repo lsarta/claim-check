@@ -62,5 +62,45 @@
     "value": "24.4",
     "unit": "percent",
     "quote": "The trade deficit jumped 24.4 percent in July."
+  },
+  {
+    "claim_id": "c9",
+    "capture_id": "census-nrc-2026-08",
+    "subject": "Housing starts, August 2026 (seasonally adjusted annual rate)",
+    "value": "1,275,000",
+    "unit": "housing units",
+    "quote": "Privately-owned housing starts in August were at a seasonally adjusted annual rate of 1,275,000."
+  },
+  {
+    "claim_id": "c10",
+    "capture_id": "census-nrc-2026-08",
+    "subject": "Change in housing starts vs. July 2026",
+    "value": "2.6",
+    "unit": "percent",
+    "quote": "This is 2.6 percent (±12.0 percent)* below the revised July estimate of 1,309,000"
+  },
+  {
+    "claim_id": "c11",
+    "capture_id": "census-nrc-2026-08",
+    "subject": "Change in housing starts vs. August 2025",
+    "value": "1.2",
+    "unit": "percent",
+    "quote": "is 1.2 percent (±10.8 percent)* below the August 2025 rate of 1,291,000"
+  },
+  {
+    "claim_id": "c12",
+    "capture_id": "census-nrc-2026-08",
+    "subject": "Building permits authorized, August 2026 (seasonally adjusted annual rate)",
+    "value": "1,394,000",
+    "unit": "housing units",
+    "quote": "Privately-owned housing units authorized by building permits in August were at a seasonally adjusted annual rate of 1,394,000."
+  },
+  {
+    "claim_id": "c13",
+    "capture_id": "census-nrc-2026-08",
+    "subject": "Change in housing completions vs. August 2025",
+    "value": "27.1",
+    "unit": "percent",
+    "quote": "is 27.1 percent (±8.9 percent) below the August 2025 rate of 1,548,000"
   }
 ]

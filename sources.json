@@ -31,5 +31,16 @@
     "file": "captures/bea-trade-2026-07.txt",
     "captured_on": "2026-10-03",
     "sha256": "9c3ecd34ded2090a1069890ae6b4f158c3913447ed3486d92e667b576afa2cd9"
+  },
+  {
+    "id": "census-nrc-2026-08",
+    "title": "New Residential Construction Press Release",
+    "url": "https://www.census.gov/construction/nrc/current/index.html",
+    "method": "fetched",
+    "kept_from": "MONTHLY NEW RESIDENTIAL CONSTRUCTION",
+    "kept_to": "Additional Release Materials",
+    "file": "captures/census-nrc-2026-08.txt",
+    "captured_on": "2026-10-06",
+    "sha256": "0695b58b2f02e77441da1e0faf519b4cac99188f3b2129542ac40bcff09d71c6"
   }
 ]
