@@ -16,7 +16,7 @@ answer a question, with exact quotes. Run python3 verify.py. Write
 DIGEST.md listing what was added, what was verified, what was held and
 why, and any watchlist page you could not reach. Push to a branch named
 claude/update-<today's date>. Never push to main. If nothing new was
-published, say so in DIGEST.md and push anyway.
+found, say so in DIGEST.md and push anyway.
 ```
 
 ## Set it up
