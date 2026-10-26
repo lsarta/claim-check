@@ -31,5 +31,27 @@
     "file": "captures/bea-trade-2026-07.txt",
     "captured_on": "2026-10-03",
     "sha256": "9c3ecd34ded2090a1069890ae6b4f158c3913447ed3486d92e667b576afa2cd9"
+  },
+  {
+    "id": "census-nrc-2026-09",
+    "title": "New Residential Construction Press Release",
+    "url": "https://www.census.gov/construction/nrc/current/index.html",
+    "method": "fetched",
+    "kept_from": "FOR IMMEDIATE RELEASE",
+    "kept_to": "Contact",
+    "file": "captures/census-nrc-2026-09.txt",
+    "captured_on": "2026-10-26",
+    "sha256": "3a3576589c015434ae6131182513b6daf078adcf30ed72a31f6f6ddf5959e83a"
+  },
+  {
+    "id": "bea-gdp-2026-q2-third",
+    "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025 | U.S. Bureau of Economic Analysis (BEA)",
+    "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+    "method": "fetched",
+    "kept_from": "Real gross domestic product (GDP) increased",
+    "kept_to": "Real GDP and Related Measures",
+    "file": "captures/bea-gdp-2026-q2-third.txt",
+    "captured_on": "2026-10-26",
+    "sha256": "ec1a3dd834819f915d8dfb3772ffe304905d9636b6ebb00a8fa6ef5623c3f57b"
   }
 ]

@@ -62,5 +62,69 @@
     "value": "24.4",
     "unit": "percent",
     "quote": "The trade deficit jumped 24.4 percent in July."
+  },
+  {
+    "claim_id": "c9",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "U.S. housing starts, September 2026 (annual rate)",
+    "value": "1,221,000",
+    "unit": "housing units",
+    "quote": "Privately-owned housing starts in September were at a seasonally adjusted annual rate of 1,221,000."
+  },
+  {
+    "claim_id": "c10",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "Housing starts, change from August 2026",
+    "value": "5.2",
+    "unit": "percent",
+    "quote": "This is 5.2 percent (±11.8 percent)* below the revised August estimate of 1,288,000"
+  },
+  {
+    "claim_id": "c11",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "Housing starts, change from September 2025",
+    "value": "7.4",
+    "unit": "percent",
+    "quote": "is 7.4 percent (±11.5 percent)* below the September 2025 rate of 1,319,000."
+  },
+  {
+    "claim_id": "c12",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "Building permits, September 2026 (annual rate)",
+    "value": "1,400,000",
+    "unit": "housing units",
+    "quote": "Privately-owned housing units authorized by building permits in September were at a seasonally adjusted annual rate of 1,400,000."
+  },
+  {
+    "claim_id": "c13",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "Housing completions, change from September 2025",
+    "value": "14.0",
+    "unit": "percent",
+    "quote": "but is 14.0 percent (±11.1 percent) below the September 2025 rate of 1,386,000."
+  },
+  {
+    "claim_id": "c14",
+    "capture_id": "bea-gdp-2026-q2-third",
+    "subject": "PCE price index, Q2 2026 (annual rate)",
+    "value": "5.0",
+    "unit": "percent",
+    "quote": "The personal consumption expenditures (PCE) price index increased 5.0 percent, revised down 0.3 percentage point"
+  },
+  {
+    "claim_id": "c15",
+    "capture_id": "bea-gdp-2026-q2-third",
+    "subject": "PCE price index excl. food and energy, Q2 2026 (annual rate)",
+    "value": "3.3",
+    "unit": "percent",
+    "quote": "the PCE price index excluding food and energy increased 3.3 percent"
+  },
+  {
+    "claim_id": "c16",
+    "capture_id": "bea-gdp-2026-q2-third",
+    "subject": "Gross domestic purchases price index, Q2 2026 (annual rate)",
+    "value": "5.6",
+    "unit": "percent",
+    "quote": "The price index for gross domestic purchases increased 5.6 percent in the second quarter"
   }
 ]
