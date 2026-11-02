@@ -1,0 +1,40 @@
+EMBARGOED UNTIL RELEASE AT 8:30 a.m. EDT, Thursday, October 29, 2026
+BEA 26–46
+Personal Income and Outlays, September 2026
+Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)—personal income less personal current taxes—increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent).
+Personal outlays—the sum of PCE, personal interest payments, and personal current transfer payments—increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate—personal saving as a percentage of DPI—was 3.8 percent.
+The increase in current-dollar personal income in September primarily reflected increases in compensation and government social benefits.
+The $113.1 billion increase in current-dollar PCE in September reflected increases of $35.1 billion in spending on goods and $78.1 billion in spending on services.
+Real PCE increased $2.6 billion (less than 0.1 percent at a monthly rate) in September.
+From the preceding month, the PCE price index for September increased 0.5 percent. Excluding food and energy, the PCE price index increased 0.3 percent.
+From the same month one year ago, the PCE price index for September increased 3.6 percent. Excluding food and energy, the PCE price index increased 3.1 percent from one year ago.
+Personal Income and Related Measures
+[Percent change from preceding month]
+AugustSeptember
+Current-dollar personal income0.30.2
+Current-dollar DPI0.30.2
+Real DPI0.0-0.3
+Current-dollar PCE0.90.5
+Real PCE0.50.0
+PCE price index0.30.5
+PCE price index excluding food and energy0.30.3
+For definitions, statistical conventions, updates to personal income and outlays, and more information about these statistics, visit “Additional Information.”
+Next release: November 25, 2026, at 8:30 a.m. EST
+Personal Income and Outlays, October 2026
+The full release schedule for 2027 is available on BEA's website.
+Technical Notes
+Changes in personal income and outlays for September
+The September increase of $54.5 billion in personal income primarily reflected increases in compensation and government social benefits.
+Within compensation, the increase was led by private wages and salaries based on U.S. Bureau of Labor Statistics’ (BLS) Current Employment Statistics (CES).
+The increase in government social benefits was led by Medicare, based on data from the Centers for Medicare & Medicaid Services and the Budget of the U.S. Government.
+Revisions to personal income
+Estimates have been updated for July and August reflecting revised BLS CES data. The revision to personal interest income was led by monetary interest, based on newly available data from the U.S. Bureau of the Fiscal Service.
+Related Data Tables
+For the statistics highlighted in this release, as well as historical time series for these estimates, see the following data tables in BEA’s Interactive Data Application.
+Table 2.6. Personal Income and Its Disposition
+Table 2.8.1. Percent Change From Preceding Period in Real PCE by Major Type of Product
+Table 2.8.5. PCE by Major Type of Product
+Table 2.8.6. Real PCE by Major Type of Product
+Table 2.8.7. Percent Change From Preceding Period in Prices for PCE by Major Type of Product
+Table 2.8.11. Real PCE by Major Type of Product: Percent Change From Month One Year Ago
+Note. With the next release, today’s data will be superseded, and the links above will reflect the latest data. The original data featured in this release can then be accessed in BEA’s Data Archive.
