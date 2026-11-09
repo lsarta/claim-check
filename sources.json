@@ -31,5 +31,38 @@
     "file": "captures/bea-trade-2026-07.txt",
     "captured_on": "2026-10-03",
     "sha256": "9c3ecd34ded2090a1069890ae6b4f158c3913447ed3486d92e667b576afa2cd9"
+  },
+  {
+    "id": "fomc-2026-10",
+    "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "method": "fetched",
+    "kept_from": "October 28, 2026",
+    "kept_to": "For media inquiries",
+    "file": "captures/fomc-2026-10.txt",
+    "captured_on": "2026-11-09",
+    "sha256": "f71cd3e99262033586a485650b189efd9a074f0ba2ee7f3e0d4c054cc299dbe9"
+  },
+  {
+    "id": "census-nrc-2026-09",
+    "title": "New Residential Construction Press Release",
+    "url": "https://www.census.gov/construction/nrc/current/index.html",
+    "method": "fetched",
+    "kept_from": "MONTHLY NEW RESIDENTIAL CONSTRUCTION",
+    "kept_to": "Additional Release Materials",
+    "file": "captures/census-nrc-2026-09.txt",
+    "captured_on": "2026-11-09",
+    "sha256": "e9ef25483279185682433fd7a53b144adcf7da3b7e0174aaff2cb66120f4dbe9"
+  },
+  {
+    "id": "bea-income-2026-09",
+    "title": "Personal Income and Outlays, September 2026 | U.S. Bureau of Economic Analysis (BEA)",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "method": "fetched",
+    "kept_from": "EMBARGOED UNTIL RELEASE",
+    "kept_to": "Full Release",
+    "file": "captures/bea-income-2026-09.txt",
+    "captured_on": "2026-11-09",
+    "sha256": "eb73f83b4775d83f2c94be57212bc2a2ed499a63ad1ea3031871b4f6f74323e1"
   }
 ]

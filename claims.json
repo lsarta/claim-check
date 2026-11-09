@@ -62,5 +62,61 @@
     "value": "24.4",
     "unit": "percent",
     "quote": "The trade deficit jumped 24.4 percent in July."
+  },
+  {
+    "claim_id": "c9",
+    "capture_id": "bea-income-2026-09",
+    "subject": "U.S. PCE price index, September 2026, change from one year earlier",
+    "value": "3.6",
+    "unit": "percent",
+    "quote": "From the same month one year ago, the PCE price index for September increased 3.6 percent."
+  },
+  {
+    "claim_id": "c10",
+    "capture_id": "bea-income-2026-09",
+    "subject": "U.S. PCE price index excluding food and energy, September 2026, change from one year earlier",
+    "value": "3.1",
+    "unit": "percent",
+    "quote": "Excluding food and energy, the PCE price index increased 3.1 percent from one year ago."
+  },
+  {
+    "claim_id": "c11",
+    "capture_id": "bea-income-2026-09",
+    "subject": "U.S. PCE price index, September 2026, monthly change",
+    "value": "0.5",
+    "unit": "percent",
+    "quote": "From the preceding month, the PCE price index for September increased 0.5 percent."
+  },
+  {
+    "claim_id": "c12",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "U.S. housing starts, September 2026, seasonally adjusted annual rate",
+    "value": "1,221,000",
+    "unit": "housing units",
+    "quote": "Privately-owned housing starts in September were at a seasonally adjusted annual rate of 1,221,000."
+  },
+  {
+    "claim_id": "c13",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "U.S. housing starts, September 2026, change from September 2025",
+    "value": "7.4",
+    "unit": "percent",
+    "quote": "is 7.4 percent (±11.5 percent)* below the September 2025 rate of 1,319,000."
+  },
+  {
+    "claim_id": "c14",
+    "capture_id": "census-nrc-2026-09",
+    "subject": "U.S. building permits, September 2026, change from September 2025",
+    "value": "3.0",
+    "unit": "percent",
+    "quote": "is 3.0 percent below the September 2025 rate of 1,444,000."
+  },
+  {
+    "claim_id": "c15",
+    "capture_id": "fomc-2026-10",
+    "subject": "Federal funds rate target range upper bound, October 2026 FOMC",
+    "value": "4",
+    "unit": "percent",
+    "quote": "maintain the target range for the federal funds rate at 3-3/4 to 4 percent"
   }
 ]
